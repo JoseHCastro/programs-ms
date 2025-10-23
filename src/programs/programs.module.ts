@@ -15,6 +15,7 @@ import { CoursesService } from './courses/courses.service';
 import { CoursesController } from './courses/courses.controller';
 import { PrerequisitesService } from './prerequisites/prerequisites.service';
 import { PrerequisitesController } from './prerequisites/prerequisites.controller';
+import { SeedingController } from './seeding.controller';
 
 @Module({
   imports: [
@@ -26,6 +27,7 @@ import { PrerequisitesController } from './prerequisites/prerequisites.controlle
     LevelsController,
     CoursesController,
     PrerequisitesController,
+    SeedingController,
   ],
   providers: [
     DegreeProgramsService,
